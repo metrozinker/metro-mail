@@ -17,6 +17,12 @@
   // #endregion
   // #region Debugger
   "debug.javascript.autoAttachFilter": "onlyWithFlag",
-  "debug.internalConsoleOptions": "openOnSessionStart"
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
   // #endregion
 }
